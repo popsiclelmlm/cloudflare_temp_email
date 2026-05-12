@@ -44,6 +44,10 @@
 - **Agent 友好** - 内置邮箱 [`skill`](skills/cf-temp-mail-agent-mail/SKILL.md)，方便 AI agent 使用邮箱
 - **移动端管理** - 社区客户端 [CloudMail](https://github.com/Lur1N77777/CloudMail)，支持 Android 管理后台和邮箱管理
 
+## 有偿部署/定制支持
+
+这个 fork 可提供小范围有偿部署、迁移、定制和故障排查支持。请通过 [paid support 表单](https://github.com/popsiclelmlm/cloudflare_temp_email/issues/new?template=paid-support.yml) 描述预算、时间线和验收方式。请勿在公开 issue 中提交 Cloudflare Token、SMTP 凭据、API Key、邮件内容、私有域名记录或其他敏感信息。
+
 ## 部署文档 - 快速开始
 
 [部署文档](https://temp-mail-docs.awsl.uk) | [Github Action 部署文档](https://temp-mail-docs.awsl.uk/zh/guide/actions/github-action.html)

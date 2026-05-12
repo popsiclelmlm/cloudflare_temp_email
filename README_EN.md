@@ -44,6 +44,10 @@
 - **Agent-friendly** - Built-in mailbox [`skill`](skills/cf-temp-mail-agent-mail/SKILL.md) for AI agents
 - **Mobile admin** - Community client [CloudMail](https://github.com/Lur1N77777/CloudMail) for Android admin and mailbox management
 
+## Paid Deployment / Customization Support
+
+This fork is available for small paid deployment, migration, customization, and troubleshooting requests. Open the [paid support form](https://github.com/popsiclelmlm/cloudflare_temp_email/issues/new?template=paid-support.yml) with your budget, timeline, and acceptance checklist. Please do not post Cloudflare tokens, SMTP credentials, API keys, email contents, private domain records, or other sensitive information in public issues.
+
 ## Deployment Documentation - Quick Start
 
 [Documentation](https://temp-mail-docs.awsl.uk) | [Github Action Deployment Guide](https://temp-mail-docs.awsl.uk/en/guide/actions/github-action.html)
