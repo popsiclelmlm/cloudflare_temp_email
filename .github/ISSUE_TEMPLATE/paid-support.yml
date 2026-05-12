@@ -1,0 +1,61 @@
+name: Paid deployment / customization support
+description: Request paid help for Cloudflare temporary email deployment, customization, or troubleshooting.
+title: "[Paid support]: "
+labels: ["paid support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for legitimate paid deployment, customization, migration, or troubleshooting work.
+
+        Do not include Cloudflare tokens, SMTP credentials, API keys, email contents, private domain records, cookies, or other secrets. If sensitive details are required, share only after a paid scope and safe handoff method are agreed.
+  - type: input
+    id: budget
+    attributes:
+      label: Budget
+      description: Your expected budget or range.
+      placeholder: "Example: $20-$100"
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      description: When do you need this completed?
+      placeholder: "Example: today / this week"
+    validations:
+      required: true
+  - type: dropdown
+    id: work-type
+    attributes:
+      label: Work type
+      options:
+        - Cloudflare deployment help
+        - D1 / R2 / Workers troubleshooting
+        - Custom domain or DNS setup
+        - SMTP / IMAP setup
+        - Telegram Bot setup
+        - Admin or auth customization
+        - Migration or upgrade help
+        - Other focused task
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request details
+      description: Describe the task, expected result, current deployment state, and any public error messages.
+      placeholder: "I need help with..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checklist
+      description: How should the work be verified?
+      placeholder: |
+        - Worker deploys successfully
+        - Temporary mailbox can receive mail
+        - Admin page opens with the configured domain
+    validations:
+      required: false

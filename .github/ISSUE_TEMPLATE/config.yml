@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Paid deployment / customization support
+    url: https://github.com/popsiclelmlm/cloudflare_temp_email/issues/new?template=paid-support.yml
+    about: Request paid Cloudflare deployment, customization, migration, or troubleshooting help.
