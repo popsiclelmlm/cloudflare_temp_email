@@ -10,6 +10,14 @@ body:
 
         Do not include Cloudflare tokens, SMTP credentials, API keys, email contents, private domain records, cookies, or other secrets. If sensitive details are required, share only after a paid scope and safe handoff method are agreed.
   - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Public GitHub handle, email, or another contact route for follow-up.
+      placeholder: "@username or email@example.com"
+    validations:
+      required: true
+  - type: input
     id: budget
     attributes:
       label: Budget

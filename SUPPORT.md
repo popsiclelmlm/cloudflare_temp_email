@@ -6,4 +6,4 @@ https://github.com/popsiclelmlm/cloudflare_temp_email/issues/new?template=paid-s
 
 Please do not post Cloudflare tokens, SMTP credentials, API keys, email contents, private domain records, cookies, or other secrets in public issues.
 
-Good paid-support requests are small, specific, and verifiable with a short checklist.
+Good paid-support requests are small, specific, and verifiable with a short checklist. Include a public contact route, budget range, timeline, deployment target, expected result, and acceptance checklist.
